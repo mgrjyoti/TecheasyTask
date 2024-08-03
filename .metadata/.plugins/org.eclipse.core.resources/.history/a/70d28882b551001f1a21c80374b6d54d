@@ -1,0 +1,18 @@
+package com.stud.Service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.stud.Repository.SubjectRepository;
+
+@Service
+public class SubjectService {
+
+	@Autowired
+	public final SubjectRepository subjectRepository;
+	
+	public SubjectService(SubjectRepository subjectRepository);
+	{
+		this.subjectRepository = subjectRepository;
+	}
+}

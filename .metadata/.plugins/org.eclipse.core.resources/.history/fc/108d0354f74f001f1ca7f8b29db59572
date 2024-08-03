@@ -1,0 +1,5 @@
+package com.stud.Entity;
+
+public class Student {
+
+}
